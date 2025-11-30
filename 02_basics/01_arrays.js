@@ -31,12 +31,12 @@ console.log(typeof newArr);
 
 console.log("A ", myArr);  
 
-const myn1 = myArr.slice(1, 3)
+const myn1 = myArr.slice(1, 3)  //extract idx 1 se 3 tak ka part new array me dega  
 
 console.log(myn1);
 console.log("B ", myArr);
 
 
-const myn2 = myArr.splice(1, 3)
+const myn2 = myArr.splice(1, 3) // idx 1 se 3 tak ka part original array se hata dega aur new array me dega
 console.log("C ", myArr);
 console.log(myn2);
