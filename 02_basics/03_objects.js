@@ -9,7 +9,7 @@
 const mySym = Symbol("key1") // create symbol   
 
 
-const JsUser = {
+const JsUser = { 
     name: "Adarsh",
     "full name": "Adarsh Patel", //dot se access nhi kr skte
     [mySym]: "mykey1", // symbol ko [ ] me hi access kr skte h
