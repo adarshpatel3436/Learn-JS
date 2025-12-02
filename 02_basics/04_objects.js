@@ -64,24 +64,27 @@ users[1].email           // access 2nd object ka email
 const course = { 
     coursename: "js in hindi",
     price: "999",
-    courseInstructor: "adarsh"
+    courseInstructor: "hitesh chai aur code"
 }
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor} = course // object destructuring
 
-// console.log(courseInstructor);
+const {courseInstructor: instructor} = course   // object destructuring with different variable name
+
+console.log(courseInstructor);
 console.log(instructor);
 
-// {
-//     "name": "adarsh",
-//     "coursename": "js in hindi",
+// {                                            //json object
+//     "name": "hitesh chai aur code",     
+//     "coursename": "js in hindi",           // json me key and value dono string hote h
+
 //     "price": "free"
 // }
 
-[
-    {},
+[    // array of empty objects
+    {},     // empty object
     {},
     {}
 ]
