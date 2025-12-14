@@ -32,3 +32,8 @@ let score2 = 200
 let score3 = 300
 
 console.log(Array.of(score1, score2, score3)); // [ 100, 200, 300 ] ye array bana deta hai given elements ka
+
+let num1 = 40
+let num2 = 50
+
+console.log(Array.of(num1, num2));    // print [40, 50]    
