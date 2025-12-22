@@ -18,7 +18,7 @@ if ( temperature === 40 ){
     console.log(`User power: ${power}`);
  }
 
- console.log(`User power: ${power}`);
+ //console.log(`User power: ${power}`);
 
 
  const balance = 1000
@@ -34,4 +34,19 @@ if (balance < 500) {
     
 } else {
     console.log("less than 1200");
+}
+
+
+
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+
+if (userLoggedIn && debitCard && 2==3) {
+    console.log("Allow to buy course");
+}
+
+if (loggedInFromGoogle || loggedInFromEmail) {
+    console.log("User logged in");
 }
